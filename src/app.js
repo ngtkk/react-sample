@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-  render() {
-    return <h1>Hello {this.props.name}</h1>;
+  onClickButton() {
+    alert("警告!")
     
   }
+
+render(){
+  return <button onClick={this.onClickButton}>押す</button>;
+}
 }
 
 ReactDOM.render(
-  <App name={"Bob"} />,
-  document.getElementById("app")  
+<App />,
+document.getElementById("app")
+
 )
