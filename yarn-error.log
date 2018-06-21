@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add babel-loader babel-core babel-preset-es2015 babel-preset-react --dev
+
+PATH: 
+  /home/keiko/bin:/home/keiko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Perl64/site/bin:/mnt/c/Perl64/bin:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files (x86)/Intel/iCLS Client:/mnt/c/Program Files/Intel/iCLS Client:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files (x86)/VAIO/VAIO BIOS Data Transfer Utility:/mnt/c/xampp/mysql/bin:/mnt/c/Program Files (x86)/Brackets/command:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Nodist/bin:/mnt/c/Users/s0677/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/s0677/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/node_modules/npm/node_modules:/mnt/c/temp/curl-7.60.0-win64-mingw/bin:/mnt/c/Program Files (x86)/Nodist:/snap/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  6.14.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-loader: ETIMEDOUT
+      at Timeout._onTimeout (/usr/share/yarn/lib/cli.js:135339:19)
+      at ontimeout (timers.js:386:11)
+      at tryOnTimeout (timers.js:250:5)
+      at Timer.listOnTimeout (timers.js:214:5)
+
+npm manifest: 
+  {
+    "name": "sample",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
